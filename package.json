@@ -1,0 +1,118 @@
+{
+  "name": "CSS_Gradient",
+  "version": "1.0.0",
+  "description": "UI to generate web gradients",
+  "keywords": [
+    "gradients",
+    "react",
+    "redux"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "deep-equal": "^1.0.1",
+    "firebase": "^4.6.2",
+    "lodash": "^4.17.4",
+    "polished": "^1.1.1",
+    "react": "^16.1.1",
+    "react-color": "^2.11.7",
+    "react-dom": "^16.1.1",
+    "react-icons": "^2.2.5",
+    "react-move": "^1.1.8",
+    "react-redux": "^5.0.5",
+    "react-share": "^1.15.0",
+    "react-sortable-hoc": "^0.6.3",
+    "redux": "^3.6.0",
+    "redux-logger": "^3.0.1",
+    "redux-thunk": "^2.2.0",
+    "reselect": "^3.0.0",
+    "chalk": "2.4.1",
+    "styled-components": "^2.0.0",
+    "autoprefixer": "7.1.0",
+    "babel-core": "6.24.1",
+    "babel-eslint": "7.2.3",
+    "babel-jest": "20.0.3",
+    "babel-loader": "7.0.0",
+    "babel-preset-react-app": "^3.0.0",
+    "babel-runtime": "6.23.0",
+    "case-sensitive-paths-webpack-plugin": "1.1.4",
+    "css-loader": "0.28.1",
+    "dotenv": "4.0.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-config-prettier": "2.1.1",
+    "eslint-config-react": "^1.1.7",
+    "eslint-config-react-app": "^1.0.3",
+    "eslint-loader": "^1.8.0",
+    "eslint-plugin-flow": "2.29.1",
+    "eslint-plugin-flowtype": "2.33.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "5.0.1",
+    "eslint-plugin-prettier": "2.1.1",
+    "eslint-plugin-react": "^7.0.1",
+    "extract-text-webpack-plugin": "2.1.0",
+    "file-loader": "0.11.1",
+    "flow-bin": "^0.51.0",
+    "fs-extra": "3.0.1",
+    "html-webpack-plugin": "2.28.0",
+    "jest": "20.0.3",
+    "object-assign": "4.1.1",
+    "object-values": "^1.0.0",
+    "postcss-flexbugs-fixes": "3.0.0",
+    "postcss-loader": "2.0.5",
+    "prettier": "^1.5.3",
+    "promise": "7.1.1",
+    "react-dev-utils": "^2.0.0",
+    "react-error-overlay": "^1.0.5",
+    "style-loader": "0.17.0",
+    "sw-precache-webpack-plugin": "0.9.1",
+    "url-loader": "0.5.8",
+    "webpack": "2.5.1",
+    "webpack-dev-server": "2.4.5",
+    "webpack-manifest-plugin": "1.1.0",
+    "whatwg-fetch": "2.0.3",
+    "react-adsense": "^0.0.6",
+    "react-ga": "^2.5.3"
+  },
+  "scripts": {
+    "start": "node scripts/start.js",
+    "build": "node scripts/build.js",
+    "test": "node scripts/test.js --env=jsdom"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}"
+    ],
+    "setupFiles": [
+      "<rootDir>/config/polyfills.js"
+    ],
+    "testMatch": [
+      "<rootDir>/src/**/__tests__/**/*.js?(x)",
+      "<rootDir>/src/**/?(*.)(spec|test).js?(x)"
+    ],
+    "testEnvironment": "node",
+    "testURL": "http://localhost",
+    "transform": {
+      "^.+\\.(js|jsx)$": "<rootDir>/node_modules/babel-jest",
+      "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
+      "^(?!.*\\.(js|jsx|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
+    },
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
+    ],
+    "moduleNameMapper": {
+      "^react-native$": "react-native-web"
+    }
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  }
+}
