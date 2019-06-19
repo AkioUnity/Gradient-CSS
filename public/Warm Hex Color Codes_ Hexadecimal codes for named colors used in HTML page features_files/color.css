@@ -1,0 +1,19 @@
+TABLE.c{width:97%; border:0; border-collapse:collapse; margin: auto;} 
+TABLE.c TR {border-top:35px solid white;} 
+TABLE.c TH{border:0; padding:3px; text-align:right; font-weight:normal;} 
+TABLE.c TD{border:0; padding:25px; width:80px;}
+TABLE.t{width:97%; border-collapse:collapse; border-top:50px solid white;}
+TABLE.t TR {border-top:10px solid white;} 
+TABLE.w{width:90%; border:0; border-collapse:collapse;} 
+TABLE.w TR{border:0;} 
+TABLE.w TH{border:1px solid silver; padding:3px; text-align:left; font-weight:normal;} 
+TABLE.w TD{border:1px solid silver; padding:25px; width:80px;}
+span.label {background-color:white; padding:2px; border:0px; font-family:courier; width:90%;} 
+TABLE.swatch {width:97%; border:0; border-collapse: separate; margin: auto; border-spacing:10px;}
+TABLE.swatch CAPTION{margin-left: 10px; margin-right: 10px; background-color: #CCDDFF; padding:5px; width:auto; text-align:center;letter-spacing:0.5em;font-weight:bold; text-transform:uppercase;}
+TABLE.swatch TD{border-bottom:1px solid silver; padding:0px; width:auto; height:100px; vertical-align:top;}
+TABLE.swatch SPAN{display:block; border: 1px solid silver; margin:0px; padding: 3px; text-align:left; width: auto; background-color: white;}
+TABLE.m{width:90%; border:0px; margin-top:20px; border-collapse:collapse;} 
+TABLE.m TR{border:0;} 
+TABLE.m TH{border:1px solid silver; padding:3px; text-align:right; font-weight:normal;} 
+TABLE.m TD{border:1px solid silver; padding:20px; width:40px;}
