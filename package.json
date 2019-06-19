@@ -2,6 +2,9 @@
   "name": "CSS_Gradient",
   "version": "1.0.0",
   "description": "UI to generate web gradients",
+  "engines": {
+    "node": "10.3.0"
+  },
   "keywords": [
     "gradients",
     "react",
